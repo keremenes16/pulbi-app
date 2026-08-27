@@ -1,0 +1,138 @@
+PULBI KULLANICI SÖZLEŞMESİ VE KULLANIM
+KOŞULLARI
+Son Güncelleme: 11 Ağustos 2026
+Uygulama: Pulbi
+Geliştirici / İşleten: Kerem YORDAMLI
+E-posta: pulbiapp@gmail.com
+1. Sözleşmenin Kabulü
+Pulbi mobil uygulamasını indirerek, hesap oluşturarak veya kullanarak bu Kullanıcı Sözleşmesi ve
+Kullanım Koşullarını kabul etmiş olursunuz. Bu koşulları kabul etmiyorsanız Pulbi'yi kullanmamalısınız.
+Pulbi'nin kullanımı aynı zamanda uygulamada sunulan Gizlilik Politikası ve uygulanabilir diğer politika
+ve kurallara tabidir.
+2. Yaş ve Kullanıcı Uygunluğu
+Pulbi yalnızca 18 yaş ve üzerindeki kişiler tarafından kullanılabilir. Kullanıcı, kayıt sırasında verdiği
+bilgilerin doğru ve güncel olduğunu kabul eder.
+3. Pulbi'nin Amacı
+Pulbi; kullanıcıların çevrelerindeki diğer Pulbi kullanıcılarını keşfetmelerine, sosyal bağlantılar
+kurmalarına, yeni arkadaşlıklar edinmelerine, Spark ve benzeri eşleşme özelliklerini kullanmalarına ve
+Yankılar aracılığıyla geçmişteki karşılaşmalarını keşfetmelerine yardımcı olan konum tabanlı bir sosyal
+uygulamadır.
+Pulbi belirli bir kullanıcıyla arkadaşlık, eşleşme, görüşme veya gerçek hayatta buluşma sonucunu
+garanti etmez.
+4. Hesap Oluşturma ve Güvenlik
+Kullanıcılar e-posta ve şifre ile veya Google hesabı üzerinden hesap oluşturabilir. Kullanıcı hesabının
+güvenliğinden ve hesap bilgilerini korumaktan kullanıcı sorumludur.
+Kullanıcı, hesabını başka bir kişiye devredemez veya başka bir kişinin hesabını izinsiz kullanamaz.
+5. Profil Bilgileri
+Kullanıcılar ad, soyad, profil fotoğrafı, doğum tarihi, cinsiyet, biyografi ve ilgi alanları gibi bilgileri
+profillerinde kullanabilir.
+Kullanıcı, paylaştığı bilgilerin kendisine ait olduğunu ve başkasının haklarını ihlal etmediğini kabul eder.
+6. Radar ve Konum Özellikleri
+Pulbi, radar ve yakınlık özelliklerini sağlamak için cihaz konumunu kullanabilir. Konum açıkken
+uygulama açık veya arka planda olabilir.
+Diğer kullanıcılar birbirlerinin kesin GPS koordinatlarını göremez. Kullanıcı konum iznini vermez veya
+sonradan kapatırsa radar ve Yankılar gibi konum tabanlı özellikler kullanılamayabilir.
+7. Ghost Mode (Gizalet Modu)
+Ghost Mode ücretsiz bir özelliktir. Etkinleştirildiğinde kullanıcı radar üzerinde görünmez; diğer
+kullanıcılar kullanıcının konumunu veya mesafesini göremez. Kullanıcı mesajlaşmaya devam edebilir
+
+-- 1 of 4 --
+
+ancak Ghost Mode açıkken diğer kullanıcıların radarını göremez.
+8. Spark ve Bluetooth/BLE
+Pulbi, yakındaki Pulbi kullanıcılarını tespit etmek, yakınlığı doğrulamak, Spark özelliklerini çalıştırmak ve
+Yankılar'daki karşılaşmaları belirlemek için Bluetooth/BLE ve konum teknolojilerinden yararlanabilir.
+Bluetooth cihaz kimlikleri veya teknik cihaz kimlikleri saklanmaz.
+9. Yankılar
+Yankılar, kullanıcıların geçmişte karşılaştıkları diğer Pulbi kullanıcılarını ve karşılaşma bilgilerini
+keşfetmelerine yardımcı olur. Karşılaşma tarihi, bölge ve karşılaşma sayısı gösterilebilir.
+Belirli koşulların gerçekleşmesi halinde, örneğin üç karşılaşma sonrasında, kullanıcılar arasında sohbet
+özelliği açılabilir.
+10. Mesajlaşma ve Medya
+Kullanıcılar metin, fotoğraf, video ve ses kaydı gönderebilir. Kullanıcılar kendi mesajlarını silebilir;
+sohbetin diğer tarafı da ilgili mesajları silebilir.
+Her iki kullanıcı aynı sohbeti sildiğinde ilgili sohbet verilerinin ve bağlantılı medya içeriklerinin
+sistemden tamamen silinmesi amaçlanır.
+Bir kullanıcı hesabına üç ay boyunca giriş yapmazsa kullanıcıya ait mesajların silinmesi uygulanabilir.
+11. Engelleme ve Şikâyet
+Kullanıcılar diğer kullanıcıları engelleyebilir ve şikâyet edebilir. Şikâyetler güvenlik, kötüye kullanım,
+taciz veya topluluk kurallarının ihlali açısından incelenebilir.
+12. Yasaklanan Kullanımlar
+Kullanıcıların Pulbi'yi hukuka aykırı veya başkalarının haklarını ihlal edecek şekilde kullanması yasaktır.
+Özellikle aşağıdakiler yasaktır:
+• Taciz, tehdit, takip, şantaj veya zorbalık.
+• Dolandırıcılık, sahte kimlik veya başka bir kişinin kimliğine bürünme.
+• Spam, istenmeyen reklam veya kötü amaçlı içerik.
+• Başka kişilerin kişisel verilerini izinsiz paylaşmak.
+• İstenmeyen cinsel içerik veya hukuka aykırı içerik paylaşmak.
+• Uygulamanın güvenlik mekanizmalarını aşmaya çalışmak.
+• Bot, otomasyon veya yetkisiz yazılımlarla hizmeti kötüye kullanmak.
+• Pulbi'yi başka kişilere zarar vermek veya suç işlemek amacıyla kullanmak.
+13. Kullanıcı İçerikleri
+Kullanıcının Pulbi'ye yüklediği profil bilgileri, fotoğraflar, videolar, ses kayıtları ve mesajlar kullanıcı
+tarafından oluşturulan içeriklerdir.
+Kullanıcı, yüklediği içerikler üzerinde gerekli haklara sahip olduğunu ve içeriklerin hukuka aykırı
+olmadığını kabul eder.
+Pulbi, güvenlik, şikâyet, kötüye kullanım veya yasal yükümlülükler kapsamında gerekli işlemleri
+yapabilir.
+14. Kullanıcı Güvenliği ve Gerçek Hayat Buluşmaları
+
+-- 2 of 4 --
+
+Pulbi, kullanıcıların sosyal bağlantılar kurmasına yardımcı olur; ancak kullanıcıların gerçek hayattaki
+davranışlarını, kimliklerini, niyetlerini veya güvenilirliklerini garanti etmez.
+Kullanıcılar başka bir kullanıcıyla gerçek hayatta görüşmeye karar verdiklerinde kendi güvenliklerinden
+sorumludur.
+15. Hesap Askıya Alma ve Sonlandırma
+Pulbi, bu sözleşmenin, topluluk kurallarının veya uygulanabilir yasaların ihlal edildiğini düşündüğü
+durumlarda hesabı geçici olarak kısıtlayabilir, askıya alabilir veya sonlandırabilir.
+Şikâyet, güvenlik tehdidi, kötüye kullanım, sahte hesap, dolandırıcılık veya hukuki zorunluluk gibi
+durumlarda gerekli önlemler alınabilir.
+16. Hesap Silme
+Kullanıcı hesabını uygulama içinden silebilir. Hesap silindiğinde Gizlilik Politikası'nda açıklanan kapsam
+dahilinde kullanıcıya ait hesap ve kişisel verilerin silinmesi gerçekleştirilir.
+Hesap silme işlemi geri alınamayabilir.
+17. Fikri Mülkiyet
+Pulbi uygulamasının yazılımı, tasarımı, marka unsurları, logoları, arayüzleri ve Pulbi tarafından
+oluşturulan diğer içerikler, uygulanabilir fikri mülkiyet mevzuatı kapsamında korunabilir.
+Kullanıcı, Pulbi'nin yazılı izni olmaksızın uygulamayı kopyalayamaz, değiştiremez, yeniden dağıtamaz,
+tersine mühendislik yapamaz veya ticari olarak kullanamaz; uygulanabilir hukukun izin verdiği
+istisnalar saklıdır.
+18. Hizmetin Kullanılabilirliği
+Pulbi hizmetin kesintisiz, hatasız veya her zaman erişilebilir olacağını garanti etmez.
+Bakım, güncelleme, teknik sorunlar, internet bağlantısı, cihaz işletim sistemi, üçüncü taraf altyapılar
+veya kontrolümüz dışındaki olaylar nedeniyle hizmette geçici kesintiler yaşanabilir.
+19. Konum ve Bluetooth Teknolojilerinin Sınırları
+GPS, Bluetooth/BLE, internet bağlantısı ve cihaz sensörleri fiziksel çevre, cihaz ayarları, izinler, sinyal
+kalitesi ve teknik koşullardan etkilenebilir.
+Bu nedenle radar, Spark veya Yankılar özelliklerinin her zaman eksiksiz veya hatasız çalışacağı garanti
+edilmez.
+20. Sorumluluk Sınırları
+Pulbi, kullanıcılar arasındaki gerçek hayat etkileşimlerinin sonucundan, kullanıcıların kendi
+davranışlarından veya kullanıcı tarafından paylaşılan bilgilerin doğruluğundan sorumlu değildir;
+uygulanabilir tüketici ve zorunlu hukuk hükümleri saklıdır.
+Hiçbir hüküm, yürürlükteki mevzuat uyarınca sınırlandırılması mümkün olmayan bir sorumluluğu
+ortadan kaldırma amacı taşımaz.
+21. Ücretler ve Gelecekteki Özellikler
+Pulbi'nin ücretlendirme modeli ve bazı özellikleri zaman içinde değişebilir. Yeni ücretli özellikler veya
+uygulama içi satın almalar sunulması halinde kullanıcılar ilgili koşullar hakkında uygun şekilde
+bilgilendirilecektir.
+
+-- 3 of 4 --
+
+22. Gizlilik
+Kullanıcı verilerinin toplanması, kullanılması, saklanması ve silinmesi Gizlilik Politikası'nda açıklanır.
+23. Değişiklikler
+Pulbi bu Kullanıcı Sözleşmesi'ni gerektiğinde güncelleyebilir. Önemli değişiklikler uygulama içinde veya
+uygun başka bir yöntemle kullanıcıların dikkatine sunulabilir.
+24. Uygulanacak Hukuk
+Bu Sözleşme, uygulanabilir zorunlu tüketici ve kişisel veri mevzuatı saklı kalmak üzere Türkiye
+Cumhuriyeti hukukuna göre değerlendirilir.
+Uyuşmazlıkların çözümünde, uygulanabilir mevzuatın görev ve yetki kuralları saklıdır.
+25. İletişim
+Pulbi
+Geliştirici / İşleten: Kerem YORDAMLI
+E-posta: pulbiapp@gmail.com
+
+-- 4 of 4 --
+

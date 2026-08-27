@@ -1,0 +1,129 @@
+PULBI TOPLULUK KURALLARI
+Son Güncelleme: 11 Ağustos 2026
+Uygulama: Pulbi
+Geliştirici / İşleten: Kerem YORDAMLI
+İletişim: pulbiapp@gmail.com
+1. Topluluk Kurallarının Amacı
+Pulbi; insanların çevrelerindeki kullanıcıları keşfetmesine, Spark ve Yankılar gibi özelliklerle sosyal
+bağlantılar kurmasına, yeni arkadaşlıklar edinmesine ve mesajlaşmasına yardımcı olan bir sosyal
+uygulamadır.
+Bu kuralların amacı Pulbi'yi güvenli, saygılı ve keyifli bir ortam olarak korumaktır.
+2. 18 Yaş Sınırı
+Pulbi 18 yaş ve üzerindeki kullanıcılar içindir. 18 yaşından küçük kişilerin hesap oluşturması veya
+uygulamayı kullanması yasaktır.
+Başka bir kişinin 18 yaşından küçük olduğunu bilerek onunla cinsel veya istismar edici amaçlarla
+iletişim kurmak kesinlikle yasaktır.
+3. Saygılı Davranış
+Diğer kullanıcılara karşı saygılı ve dürüst davranın. Hakaret, aşağılama, tehdit, zorbalık, sürekli rahatsız
+etme ve korkutma kabul edilmez.
+Bir kullanıcı iletişim kurmak istemiyorsa buna saygı gösterilmelidir.
+4. Taciz ve Israrlı Takip
+Bir kullanıcıyı istemediği halde sürekli mesajlarla, eşleşmelerle veya diğer uygulama özellikleriyle
+rahatsız etmek yasaktır.
+Bir kişiyi gerçek hayatta takip etmek, konumunu öğrenmeye veya izlemeye çalışmak, kişisel
+hareketlerini izlemek veya korkutmak amacıyla Pulbi'yi kullanmak yasaktır.
+5. Tehdit ve Şiddet
+Fiziksel şiddet tehdidi, ciddi zarar verme tehdidi, şantaj, zorla bir şey yaptırmaya çalışma veya şiddeti
+teşvik eden içerikler yasaktır.
+6. Nefret ve Ayrımcılık
+Bir kişiye veya gruba karşı kimliği veya kişisel özellikleri nedeniyle nefret, dışlama, insanlıktan çıkarma
+veya şiddet çağrısı içeren içerikler yasaktır.
+7. Cinsel İçerik ve İstenmeyen İçerik
+İstenmeyen cinsel içerik göndermek, cinsel taciz, cinsel şantaj veya başka bir kullanıcıyı cinsel içerik
+göndermeye zorlamak yasaktır.
+18 yaşından küçük kişilerle bağlantılı cinsel içerik, cinsel sömürü veya istismar içeren herhangi bir
+içerik kesinlikle yasaktır.
+Pulbi, yetişkinlere yönelik açık cinsel içerik paylaşım platformu değildir.
+
+-- 1 of 4 --
+
+8. Çıplaklık ve Uygunsuz Profil İçeriği
+Profil fotoğrafı, biyografi, sohbet veya diğer alanlarda kullanıcıları rahatsız edecek, cinsel istismar veya
+açık cinsel davranışı teşvik edecek içerikler paylaşılmamalıdır.
+Pulbi, güvenlik veya topluluk standartları kapsamında uygunsuz içerikleri kaldırabilir.
+9. Sahte Kimlik ve Dolandırıcılık
+Başka bir kişinin adını, fotoğrafını veya kimliğini izinsiz kullanarak sahte hesap oluşturmak yasaktır.
+Para, banka bilgileri, şifreler, doğrulama kodları veya kişisel bilgileri dolandırıcılık amacıyla istemek
+veya kullanıcıları kandırmak yasaktır.
+10. Spam ve Reklam
+İstenmeyen toplu mesajlar, otomatik mesajlar, zincir mesajlar, kullanıcıları başka hizmetlere
+yönlendirmek amacıyla yapılan spam faaliyetleri ve izinsiz reklamlar yasaktır.
+11. Kişisel Verilerin Korunması
+Başka bir kullanıcının telefon numarası, adresi, özel mesajları, ekran görüntüleri, kesin konumu veya
+diğer kişisel bilgilerini izinsiz paylaşmak yasaktır.
+Bir kullanıcının Pulbi'de görünen bilgilerini, o kişiye zarar vermek, tehdit etmek veya onu gerçek
+hayatta bulmak amacıyla kullanmak yasaktır.
+12. Konum ve Radarın Kötüye Kullanılması
+Radar, Spark, Yankılar veya konum özellikleri başka kişileri takip etmek, gözetlemek, taciz etmek veya
+gerçek konumlarını ortaya çıkarmaya çalışmak için kullanılamaz.
+Pulbi'nin kesin GPS koordinatları kullanıcılar arasında paylaşılmadığı için herhangi bir yöntemle başka
+bir kullanıcının kesin konumunu çıkarmaya çalışmak yasaktır.
+13. Bluetooth ve Teknik Sistemlerin Kötüye Kullanılması
+Bluetooth/BLE yakınlık mekanizmasını manipüle etmek, sahte yakınlık/karşılaşma üretmek veya
+uygulamanın eşleşme sistemini yanıltmak yasaktır.
+Pulbi'nin teknik altyapısını bozacak, aşırı yükleyecek veya yetkisiz şekilde erişmeye çalışacak işlemler
+yasaktır.
+14. Spark ve Yankılar
+Spark ve Yankılar yalnızca gerçek kullanıcı etkileşimlerini ve uygulamanın amaçlanan yakınlık
+özelliklerini desteklemek için kullanılmalıdır.
+Sahte hesaplarla karşılaşma üretmek, konum verisini manipüle etmek veya karşılaşma sayısını yapay
+şekilde artırmak yasaktır.
+15. Mesajlaşma Kuralları
+Mesajlaşmada karşılıklı saygı esastır. İstenmeyen mesajlar, tehditler, taciz, dolandırıcılık, spam, cinsel
+taciz ve kişisel veri paylaşımı yasaktır.
+Bir kullanıcı sizi engellediyse yeni hesaplarla veya başka yöntemlerle o kullanıcıyla tekrar iletişim
+kurmaya çalışmayın.
+16. Fotoğraf, Video ve Ses Kayıtları
+
+-- 2 of 4 --
+
+Yüklediğiniz fotoğraf, video ve ses kayıtlarının paylaşım hakkına sahip olmanız gerekir.
+Başka kişilerin özel görüntülerini veya ses kayıtlarını izinsiz paylaşmak, tehdit veya şantaj amacıyla
+kullanmak yasaktır.
+17. Yasa Dışı Faaliyetler
+Pulbi; suç işlemek, yasa dışı mal veya hizmetlerin ticaretini yapmak, dolandırıcılık, tehdit, şantaj veya
+başka bir yasa dışı faaliyeti organize etmek amacıyla kullanılamaz.
+18. Botlar ve Otomasyon
+Bot, script, scraper, otomatik hesap oluşturma sistemi veya Pulbi'nin normal çalışma biçimini değiştiren
+yetkisiz yazılımlar kullanılamaz.
+Spam üretmek, sahte etkileşim oluşturmak veya uygulamanın güvenlik mekanizmalarını aşmak
+amacıyla otomasyon kullanılması yasaktır.
+19. Kullanıcıları Raporlama
+Kuralları ihlal ettiğini düşündüğünüz bir kullanıcıyı uygulamadaki mevcut şikâyet/raporlama
+mekanizmaları üzerinden bildirebilirsiniz.
+Rapor gönderirken mümkün olduğunca doğru ve gerçek bilgiler sağlayın. Kasıtlı olarak sahte
+şikâyetlerle başka bir kullanıcıya zarar vermek de kurallara aykırıdır.
+20. Engelleme
+Bir kullanıcıyı engellemek, iletişimi ve uygulamadaki belirli etkileşimleri sınırlandırmak için kullanılabilir.
+Engellenen bir kullanıcının engeli aşmak için yeni hesaplar oluşturması veya başka yöntemler
+kullanması yasaktır.
+21. Moderasyon ve İçerik İşlemleri
+Pulbi, güvenlik, kullanıcı şikâyetleri, kötüye kullanım, yasal yükümlülükler veya bu kuralların ihlali
+durumunda içerikleri kaldırabilir, görünürlüğü sınırlayabilir, özellikleri kısıtlayabilir veya hesabı askıya
+alabilir.
+Pulbi'nin her içeriği önceden incelemesi garanti edilmez. Kullanıcıların şüpheli veya zararlı içerikleri
+bildirmesi topluluk güvenliğine katkı sağlar.
+22. Hesap Askıya Alma veya Kapatma
+Kuralların ciddi veya tekrarlanan şekilde ihlal edilmesi halinde hesap geçici olarak askıya alınabilir veya
+kalıcı olarak kapatılabilir.
+Ciddi güvenlik riski, dolandırıcılık, tehdit, çocukların cinsel istismarı, şiddet tehdidi veya diğer ağır
+ihlallerde Pulbi gerekli önlemleri derhal alabilir.
+23. Kullanıcı Güvenliği
+Pulbi, kullanıcıların kimliğini, niyetini veya gerçek hayattaki davranışlarını garanti etmez. Bir
+kullanıcıyla gerçek hayatta görüşmeden önce kendi güvenliğinizi değerlendirin.
+İlk buluşmalar için kamuya açık ve güvenli yerleri tercih etmek, kişisel bilgileri gereğinden fazla
+paylaşmamak ve güvendiğiniz bir kişiyi bilgilendirmek iyi güvenlik uygulamalarıdır.
+24. Topluluk Kurallarındaki Değişiklikler
+
+-- 3 of 4 --
+
+Pulbi, güvenlik ihtiyaçları, yeni özellikler veya yasal gereklilikler nedeniyle bu Topluluk Kurallarını
+güncelleyebilir. Güncel kurallar uygulama içinde yayınlanabilir.
+25. İletişim
+Topluluk Kuralları hakkında sorularınız veya güvenlik bildirimleriniz için:
+Pulbi
+Geliştirici / İşleten: Kerem YORDAMLI
+E-posta: pulbiapp@gmail.com
+
+-- 4 of 4 --
+

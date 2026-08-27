@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "573659960941",
+    "project_id": "pulbi-15163",
+    "storage_bucket": "pulbi-15163.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573659960941:android:8b493422c5e634463d9164",
+        "android_client_info": {
+          "package_name": "com.pulbi.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO__rn2QGmTPES8KLKZfXQPB9lhDts9JU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

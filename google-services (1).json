@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "573659960941",
+    "project_id": "pulbi-15163",
+    "storage_bucket": "pulbi-15163.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573659960941:android:8b493422c5e634463d9164",
+        "android_client_info": {
+          "package_name": "com.pulbi.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573659960941-9jsonhh1uc99lel2l1vkskvkcjp0tq99.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pulbi.app",
+            "certificate_hash": "7dd50250c28c6a8758433ff6b316b0b0ef94adba"
+          }
+        },
+        {
+          "client_id": "573659960941-v1ko1dr7ahgt9oaop9fjhk6ipm6apk9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO__rn2QGmTPES8KLKZfXQPB9lhDts9JU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573659960941-v1ko1dr7ahgt9oaop9fjhk6ipm6apk9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

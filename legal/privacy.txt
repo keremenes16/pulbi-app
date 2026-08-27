@@ -1,0 +1,130 @@
+PULBI GİZLİLİK POLİTİKASI
+Son Güncelleme: 11 Ağustos 2026
+1. Veri Sorumlusu
+Veri Sorumlusu: Kerem YORDAMLI
+Uygulama: Pulbi
+E-posta: pulbiapp@gmail.com
+2. Yaş Sınırı
+Pulbi 18 yaş ve üzerindeki kullanıcılar için tasarlanmıştır. 18 yaşından küçük kişilerin Pulbi'yi
+kullanmasına izin verilmez.
+3. Topladığımız Kişisel Veriler
+Hesap Bilgileri: E-posta adresi, kimlik doğrulama bilgileri, ad, soyad, doğum tarihi, cinsiyet, profil
+fotoğrafı, biyografi/hakkında bilgisi ve ilgi alanları.
+Pulbi'de telefon numarası ile kayıt veya telefon numarası üzerinden kimlik doğrulama yapılmamaktadır.
+Kullanıcılar Google hesabı üzerinden giriş yapabilir.
+4. Konum Verileri
+Radar, Yankılar, yakın kullanıcı keşfi ve bazı eşleşme özelliklerinin çalışabilmesi için konum verileri
+işlenebilir.
+Pulbi, uygulama açıkken ve uygulama arka plandayken cihazın konum bilgisini alabilir. Konum verileri
+Firebase altyapısında işlenebilir.
+Pulbi kullanıcının yalnızca en son konumunu tutar. Yeni konum alındığında önceki son konum
+güncellenir.
+5. Kesin Konum Bilgisi
+Pulbi'nin sistemleri yakınlık hesaplamaları için kesin GPS koordinatlarını işleyebilir. Kullanıcıların kesin
+GPS koordinatları diğer kullanıcılara gösterilmez.
+6. Radar
+Radar, çevredeki Pulbi kullanıcılarını keşfetmeye yardımcı olur. Sistem kullanıcıların konumlarını ve
+aralarındaki yakınlığı işleyebilir; kesin GPS koordinatları diğer kullanıcılara açıklanmaz.
+7. Ghost Mode (Gizalet Modu)
+Ghost Mode etkinleştirildiğinde kullanıcı radar üzerinde görünmez; diğer kullanıcılar kullanıcının
+konumunu veya mesafe bilgisini göremez. Konum paylaşımı/radar görünürlüğü durur. Kullanıcı
+mesajlaşmaya devam edebilir ve Ghost Mode açıkken diğer kullanıcıların radarını göremez. Ghost Mode
+ücretsizdir.
+8. Yankılar
+Yankılar, kullanıcıların geçmişteki fiziksel yakınlıklarını ve karşılaşmalarını keşfetmelerine yardımcı olur.
+Karşılaşılan kullanıcı, karşılaşma tarihi, karşılaşmanın gerçekleştiği bölge ve karşılaşma sayısı
+işlenebilir. Örneğin “10 Ağustos — Kadıköy / Moda'da karşılaştınız.” gibi bilgiler gösterilebilir.
+Yankılar kapsamında oluşturulan karşılaşma kayıtları mevcut sistemde süresiz olarak saklanmaktadır.
+
+-- 1 of 4 --
+
+9. Spark ve Bluetooth/BLE
+Bluetooth/BLE ve konum tabanlı teknolojiler; yakındaki Pulbi kullanıcılarını tespit etmek, iki kullanıcının
+yakınlığını doğrulamak, Spark özelliğini çalıştırmak ve Yankılar'daki karşılaşmaları tespit etmek için
+kullanılabilir.
+Bluetooth cihaz kimliği/teknik cihaz kimliği saklanmaz. Bluetooth, yakınlığı tespit etmek amacıyla
+kullanılır.
+Bu özellikler kullanıcıların sosyalleşmesine, yeni arkadaşlıklar ve sosyal bağlantılar kurmasına yardımcı
+olmak amacıyla sunulur.
+10. Mesajlaşma Verileri
+Kullanıcılar metin mesajları, fotoğraflar, videolar ve ses kayıtları gönderebilir. Mesaj ve bağlantılı
+içerikler Firebase altyapısında saklanabilir.
+Kullanıcılar kendi mesajlarını silebilir; sohbetin diğer tarafı da ilgili mesajları silebilir. Her iki kullanıcı
+aynı sohbeti sildiğinde ilgili sohbet verileri ve bağlantılı medya içerikleri sistemden tamamen silinir.
+11. Mesajların Otomatik Silinmesi
+Bir kullanıcı hesabına 3 ay boyunca giriş yapmazsa, bu kullanıcıya ait mesajların silinmesi uygulanır.
+12. Fotoğraf, Video ve Ses Kayıtları
+Profil fotoğrafları ile sohbet fotoğrafları, videoları ve ses kayıtları Firebase Storage'da saklanabilir.
+İlgili mesaj veya sohbet silindiğinde bağlantılı medya içerikleri de silinir. Hesap silindiğinde kullanıcıya
+ait fotoğraf, video ve ses kayıtları da silinir.
+13. Engelleme ve Şikâyet
+Kullanıcılar birbirlerini engelleyebilir ve şikâyet edebilir. Şikâyetler güvenlik ve kötüye kullanım
+incelemeleri amacıyla yetkili Pulbi yöneticileri tarafından incelenebilir.
+14. Bildirimler
+Pulbi, Firebase Cloud Messaging kullanarak yeni mesajlar, eşleşmeler, Spark veya benzeri etkileşimler,
+Yankılar ve diğer uygulama içi etkileşimler hakkında push bildirimleri gönderebilir.
+Bildirim izni verilmediğinde uygulamanın temel özellikleri kullanılmaya devam eder; ancak bildirim
+gerektiren bazı özellikler ve bildirimler çalışmayabilir.
+15. Firebase Hizmetleri
+Pulbi şu Firebase hizmetlerini kullanmaktadır: Firebase Authentication, Cloud Firestore, Firebase
+Storage ve Firebase Cloud Messaging.
+Pulbi şu anda Firebase Analytics, Firebase Crashlytics veya Firebase Cloud Functions
+kullanmamaktadır.
+16. Kullanıcı Verilerine Erişim
+Yetkili Pulbi yöneticileri; güvenlik, kötüye kullanım incelemesi, teknik destek, kullanıcı desteği ve yasal
+yükümlülüklerin yerine getirilmesi gibi gerekli durumlarda kullanıcı verilerine erişebilir.
+Normal kullanıcılar başka kullanıcıların gizli kişisel verilerine veya kesin GPS koordinatlarına erişemez.
+17. Kişisel Verilerin Kullanım Amaçları
+
+-- 2 of 4 --
+
+Kişisel veriler; hesap oluşturma ve yönetimi, kimlik doğrulama, radar, yakın kullanıcı keşfi,
+Spark/eşleşme, Yankılar, sosyal bağlantılar, mesajlaşma, profil özellikleri, Ghost Mode, bildirimler,
+güvenlik, şikâyetlerin değerlendirilmesi, kötüye kullanımın önlenmesi, teknik hizmetler ve yasal
+yükümlülüklerin yerine getirilmesi amaçlarıyla işlenebilir.
+18. Kişisel Verilerin Hukuki İşlenme Sebepleri
+Kişisel veriler uygulanabilir mevzuata göre sözleşmenin kurulması veya ifası, hukuki yükümlülükler,
+meşru menfaatler, bir hakkın tesisi/kullanılması/korunması ve gerekli durumlarda açık rıza gibi hukuki
+sebeplere dayanılarak işlenebilir.
+19. Kişisel Verilerin Paylaşılması
+Pulbi kullanıcıların kişisel verilerini satmaz veya reklam amacıyla üçüncü kişilere kiralamaz. Hizmetin
+sağlanması kapsamında veriler Firebase altyapısında işlenebilir.
+Veriler; kullanıcının izni, yasal zorunluluk, yetkili kamu kurumlarının hukuka uygun talepleri,
+güvenlik/kötüye kullanımın önlenmesi veya hukuki hakların korunması gibi durumlarda paylaşılabilir.
+20. Reklam
+Pulbi reklam sunmamaktadır. Mevcut hizmette reklam amacıyla kullanıcı profili oluşturulmamaktadır.
+Gelecekte reklam teknolojileri eklenirse bu politika güncellenecektir.
+21. Verilerin Saklanması
+Konum: Yalnızca en son konum tutulur ve yeni konumla güncellenir.
+Yankılar: Karşılaşma kayıtları mevcut sistemde süresiz saklanır.
+Mesajlar ve medya: Sohbet silme veya ilgili saklama koşulları gerçekleştiğinde silinir; 3 ay giriş
+yapılmayan hesaplara ait mesajların silinmesi uygulanır.
+22. Hesap Silme
+Kullanıcı hesabını uygulama içerisinden silebilir. Hesap silindiğinde hesap bilgileri, ad/soyad, profil
+fotoğrafı, doğum tarihi, cinsiyet, biyografi, ilgi alanları, son konum, Yankılar/karşılaşma kayıtları,
+mesajlar, fotoğraf/video/ses kayıtları ve Firebase Authentication hesabı silinir.
+23. Kullanıcıların Kişisel Veri Hakları
+Uygulanabilir KVKK ve GDPR hükümleri kapsamında kullanıcılar; verilerinin işlenip işlenmediğini
+öğrenme, erişim, düzeltme, silme, işleme faaliyetinin sınırlandırılmasını isteme, belirli durumlarda itiraz
+etme, açık rızayı geri çekme ve uygulanabilir olduğu ölçüde veri taşınabilirliği gibi haklara sahip olabilir.
+24. Veri İndirme
+Pulbi şu anda kullanıcıların kişisel verilerini doğrudan uygulama üzerinden indirmesine olanak sağlayan
+bir özellik sunmamaktadır. Kullanıcılar veri taleplerini e-posta üzerinden iletebilir.
+25. Veri Güvenliği
+Pulbi, kişisel verilerin korunması için uygun teknik ve idari tedbirleri uygulamayı amaçlar.
+26. Çocukların Gizliliği
+Pulbi 18 yaşından küçük kişilere yönelik değildir ve 18 yaşından küçük kişilerden bilerek kişisel veri
+toplamayı amaçlamaz.
+27. Gizlilik Politikası Değişiklikleri
+
+-- 3 of 4 --
+
+Pulbi bu politikayı gerektiğinde güncelleyebilir. Güncellenmiş politika uygulama içerisinde yayınlanabilir
+ve önemli değişikliklerde kullanıcılar uygun yöntemlerle bilgilendirilebilir.
+28. İletişim
+Pulbi
+Veri Sorumlusu: Kerem YORDAMLI
+E-posta: pulbiapp@gmail.com
+
+-- 4 of 4 --
+

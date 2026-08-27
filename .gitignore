@@ -1,0 +1,77 @@
+# ================================
+# Pulbi - Git Ignore
+# ================================
+
+# Environment / secrets
+.env
+.env.local
+.env*.local
+!.env.example
+
+# Dependencies
+node_modules/
+functions/node_modules/
+
+# Next.js
+.next/
+out/
+
+# Expo
+.expo/
+.expo-dev/
+.expo-shared/
+
+# Firebase local files
+.firebase/
+.firebaserc
+
+# Vercel
+.vercel/
+
+# Capacitor / Android generated files
+android/.gradle/
+android/build/
+android/app/build/
+android/.idea/
+android/local.properties
+
+# Gradle
+.gradle/
+*.keystore
+*.jks
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# TypeScript generated
+*.tsbuildinfo
+
+# Local / temporary Pulbi files
+.pulbi-pending-registration.json
+
+# Large local programs accidentally copied into project
+OllamaSetup.exe
+Antigravity-x64.exe
+
+# Personal files / documents
+IMG_6724.HEIC
+Kerem_Enes_YORDAMLI.pdf
+
+# Generated / temporary backups
+*.bak
+
+# Firebase local cache
+.firebase/

@@ -1,0 +1,120 @@
+PULBI KVKK AYDINLATMA METNİ
+Son Güncelleme: 11 Ağustos 2026
+Veri Sorumlusu: Kerem YORDAMLI
+Uygulama: Pulbi
+E-posta: pulbiapp@gmail.com
+1. Amaç ve Kapsam
+Bu Aydınlatma Metni, 6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında Pulbi mobil
+uygulamasını kullanan kişilerin kişisel verilerinin işlenmesi hakkında ilgili kişileri bilgilendirmek
+amacıyla hazırlanmıştır.
+Bu metin, kişisel verilerin hangi kategorilerde işlendiğini, işleme amaçlarını, veri toplama yöntemlerini,
+hukuki sebepleri, aktarım durumlarını ve ilgili kişilerin haklarını açıklar.
+2. Veri Sorumlusu
+KVKK kapsamında kişisel verileriniz bakımından veri sorumlusu Kerem YORDAMLI'dır.
+İletişim: pulbiapp@gmail.com
+3. İşlenen Kişisel Veri Kategorileri
+Kimlik ve profil verileri: Ad, soyad, doğum tarihi, cinsiyet, profil fotoğrafı, biyografi ve ilgi alanları.
+İletişim verileri: E-posta adresi.
+Hesap ve kimlik doğrulama verileri: Firebase Authentication kapsamında hesap ve kimlik doğrulama
+bilgileri; Google ile giriş kullanılması halinde ilgili kimlik doğrulama bilgileri.
+Konum verileri: Kullanıcının son konumu ve yakınlık/karşılaşma özellikleri için kullanılan konum bilgileri.
+Mesajlaşma ve içerik verileri: Metin mesajları, fotoğraflar, videolar ve ses kayıtları.
+Karşılaşma verileri: Yankılar kapsamında karşılaşılan kullanıcı, karşılaşma tarihi, bölge ve karşılaşma
+sayısı.
+İşlem ve teknik veriler: Hizmetin çalışması için gerekli olabilecek cihaz ve uygulama teknik verileri.
+Bildirim verileri: Push bildirimlerinin iletilmesi için gerekli teknik bilgiler.
+4. Bluetooth / Yakınlık Verileri
+Pulbi, yakındaki Pulbi kullanıcılarını tespit etmek, iki kullanıcının yakınlığını doğrulamak, Spark özelliğini
+çalıştırmak ve Yankılar'daki karşılaşmaları belirlemek amacıyla Bluetooth/BLE teknolojisinden
+yararlanabilir.
+Bluetooth cihaz kimliği veya benzersiz teknik cihaz kimliği saklanmaz. Bluetooth yalnızca yakınlık
+tespiti amacıyla kullanılır.
+5. Kişisel Verilerin İşlenme Amaçları
+Kişisel verileriniz; hesap oluşturma ve yönetme, kimlik doğrulama, radar hizmetini sunma, yakındaki
+kullanıcıları keşfetme, Spark/eşleşme özelliklerini çalıştırma, Yankılar özelliğini sunma, sosyal
+bağlantıların kurulmasına yardımcı olma, mesajlaşma ve medya paylaşımını sağlama, Ghost Mode'u
+uygulama, bildirim gönderme, kullanıcı güvenliğini sağlama, şikâyetleri değerlendirme, kötüye
+kullanımı önleme, teknik hizmetleri yürütme ve yasal yükümlülükleri yerine getirme amaçlarıyla
+işlenebilir.
+
+-- 1 of 3 --
+
+6. Kişisel Verilerin Toplanma Yöntemleri
+Veriler; mobil uygulama üzerinden doğrudan kullanıcı tarafından sağlanması, hesap oluşturma ve
+Google ile giriş süreçleri, cihaz izinleri, konum hizmetleri, Bluetooth/BLE, Firebase Authentication, Cloud
+Firestore, Firebase Storage ve Firebase Cloud Messaging altyapıları aracılığıyla otomatik veya kısmen
+otomatik yöntemlerle toplanabilir.
+7. Kişisel Verilerin İşlenmesinin Hukuki Sebepleri
+KVKK'nın 5. maddesi kapsamında kişisel veriler; kanunlarda açıkça öngörülmesi, bir sözleşmenin
+kurulması veya ifasıyla doğrudan doğruya ilgili olması, veri sorumlusunun hukuki yükümlülüğünü
+yerine getirmesi, bir hakkın tesisi/kullanılması/korunması, ilgili kişinin temel hak ve özgürlüklerine zarar
+vermemek kaydıyla veri sorumlusunun meşru menfaatinin bulunması veya gerekli hallerde açık rıza
+hukuki sebeplerine dayanılarak işlenebilir.
+Konum, Bluetooth ve benzeri cihaz izinleri bakımından ilgili işletim sisteminin izin mekanizmaları
+uygulanır. Açık rıza gerektiren bir işleme faaliyeti bulunması halinde ilgili rıza ayrıca alınır.
+8. Konum ve Arka Plan Konumu
+Radar, Yankılar ve yakınlık tabanlı özellikler için konum verileri uygulama açıkken veya izin verilmişse
+arka planda işlenebilir.
+Pulbi yalnızca kullanıcının son konumunu tutar; yeni konum geldiğinde önceki son konum güncellenir.
+Diğer kullanıcılarla kesin GPS koordinatları paylaşılmaz.
+Konum izni verilmediğinde konum gerektiren özellikler çalışmayabilir; hesap ve mesajlaşma gibi konum
+gerektirmeyen özellikler kullanılabilir.
+9. Yankılar ve Karşılaşma Geçmişi
+Yankılar özelliği kapsamında kullanıcıların birbirleriyle karşılaşmaları; tarih, bölge ve karşılaşma sayısı
+gibi bilgilerle ilişkilendirilebilir.
+Mevcut sistem tasarımında Yankılar karşılaşma kayıtları süresiz saklanmaktadır.
+10. Mesajlar ve Medya
+Mesajlaşma kapsamında metin, fotoğraf, video ve ses kayıtları işlenebilir. Bu içerikler Firebase
+altyapısında saklanabilir.
+Her iki kullanıcı aynı sohbeti sildiğinde ilgili sohbet ve bağlantılı medya içerikleri tamamen silinir.
+Hesabını 3 ay boyunca kullanmayan kullanıcıların mesajlarının silinmesi uygulanır.
+11. Kişisel Verilerin Aktarılması
+Kişisel veriler, Pulbi hizmetlerinin sağlanması kapsamında kullanılan Firebase altyapısı ve ilgili hizmet
+sağlayıcıları tarafından işlenebilir.
+Yurt içi veya yurt dışına veri aktarımı söz konusu olduğunda, aktarım ilgili KVKK hükümlerine ve
+uygulanabilir düzenlemelere uygun hukuki mekanizmalar kullanılarak gerçekleştirilir.
+12. Kişisel Verilere Erişim
+Yetkili Pulbi yöneticileri; güvenlik, kötüye kullanım incelemesi, teknik destek, kullanıcı desteği veya
+yasal yükümlülüklerin yerine getirilmesi gibi gerekli durumlarda kullanıcı verilerine erişebilir.
+Normal kullanıcılar başka kullanıcıların gizli kişisel verilerine veya kesin GPS koordinatlarına erişemez.
+13. Saklama Süreleri
+
+-- 2 of 3 --
+
+Son konum: Yeni konumla güncellenir; eski son konum tutulmaz.
+Yankılar: Karşılaşma kayıtları mevcut sistemde süresiz saklanır.
+Mesajlar: Sohbet silme koşullarında silinir; ayrıca 3 ay giriş yapılmayan hesaplara ait mesajların
+silinmesi uygulanır.
+Hesap: Kullanıcı hesabını sildiğinde hesap ve kullanıcıya ait belirtilen kişisel veriler silinir. Yasal olarak
+saklanması zorunlu veriler varsa ilgili mevzuattaki süreler saklıdır.
+14. Kullanıcı Hakları
+KVKK'nın 11. maddesi kapsamında ilgili kişiler; kişisel verilerinin işlenip işlenmediğini öğrenme,
+işlenmişse buna ilişkin bilgi talep etme, işlenme amacını ve amacına uygun kullanılıp kullanılmadığını
+öğrenme, yurt içinde/yurt dışında aktarıldığı üçüncü kişileri bilme, eksik veya yanlış işlenmişse
+düzeltilmesini isteme, KVKK'nın şartları kapsamında silinmesini veya yok edilmesini isteme, yapılan
+işlemlerin aktarıldığı üçüncü kişilere bildirilmesini isteme, münhasıran otomatik sistemlerle analiz
+sonucu aleyhe bir sonucun ortaya çıkmasına itiraz etme ve kanuna aykırı işleme nedeniyle zarara
+uğraması halinde zararın giderilmesini talep etme haklarına sahiptir.
+15. Başvuru Yöntemi
+KVKK kapsamındaki taleplerinizi pulbiapp@gmail.com adresine iletebilirsiniz.
+Başvurular, kimlik doğrulaması ve talebin niteliğine göre gerekli bilgilerin sağlanması sonrasında
+yürürlükteki KVKK ve ilgili ikincil düzenlemelerde öngörülen usul ve süreler çerçevesinde
+değerlendirilir.
+16. Hesap Silme
+Kullanıcı hesabını doğrudan uygulama içerisinden silebilir. Hesap silindiğinde; hesap bilgileri, profil
+bilgileri, son konum, Yankılar/karşılaşma kayıtları, mesajlar, fotoğraf/video/ses kayıtları ve Firebase
+Authentication hesabı dahil olmak üzere kullanıcıya ait verilerin silinmesi gerçekleştirilir; yasal saklama
+yükümlülükleri saklıdır.
+17. Çocukların Verileri
+Pulbi 18 yaşından küçük kişilere yönelik değildir. 18 yaşından küçük kişilerden bilerek kişisel veri
+toplanması amaçlanmamaktadır.
+18. Değişiklikler
+Mevzuat, uygulama özellikleri veya veri işleme süreçlerinde değişiklik olması halinde bu Aydınlatma
+Metni güncellenebilir. Güncel metin uygulama içerisinde kullanıcıların erişimine sunulabilir.
+19. İletişim
+Veri Sorumlusu: Kerem YORDAMLI
+Uygulama: Pulbi
+E-posta: pulbiapp@gmail.com
+
+-- 3 of 3 --
+
