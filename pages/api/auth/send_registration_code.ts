@@ -1,19 +1,14 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
-import { collection, query, where, getDocs } from 'firebase/firestore'
-import { db } from '../../../lib/firebase' // Kendi firebase dosyanın yolu burası olmalı (gerekirse yolunu kontrol et)
+import { collection, query, where, getDocs, doc, setDoc, deleteDoc } from 'firebase/firestore'
+import { db } from '../../../lib/firebase'
 import {
-  cleanupExpiredEntries,
-  deletePendingRegistration,
   generate4DigitCode,
   isAdminEmail,
   normalizeEmail,
-  pendingRegistrationStore,
-  savePendingRegistrationStore,
   sendEmail,
   sendJson,
 } from '../../../lib/api-auth'
 
-// Kullanıcı adının daha önce alınıp alınmadığını kontrol eder
 async function resolveEmailIdentifier(username: string): Promise<string | null> {
   const usersRef = collection(db, 'users')
   const q = query(usersRef, where('username', '==', username))
@@ -22,7 +17,6 @@ async function resolveEmailIdentifier(username: string): Promise<string | null> 
   return snapshot.docs[0].data().email || null
 }
 
-// E-postanın daha önce kayıtlı olup olmadığını kontrol eder
 async function checkEmailRegistered(email: string): Promise<boolean> {
   const usersRef = collection(db, 'users')
   const q = query(usersRef, where('email', '==', email.toLowerCase()))
@@ -36,8 +30,6 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   if (req.method !== 'POST') {
     return sendJson(res, 405, { error: 'Yalnızca POST isteği desteklenir.' })
   }
-
-  cleanupExpiredEntries(new Map(), pendingRegistrationStore)
 
   const fullName = String(req.body.fullName || '').trim()
   const username = String(req.body.username || '').trim()
@@ -87,10 +79,13 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     expiresAt,
   }
 
-  deletePendingRegistration(code, normalizedEmail)
-  pendingRegistrationStore.set(code, entry)
-  pendingRegistrationStore.set(normalizedEmail, entry)
-  savePendingRegistrationStore()
+  try {
+    await setDoc(doc(db, 'pendingRegistrations', code), entry)
+    await setDoc(doc(db, 'pendingRegistrations', normalizedEmail), entry)
+  } catch (fsError: any) {
+    console.error('[Firestore Pending Registration Error]:', fsError)
+    return sendJson(res, 500, { error: 'Kayıt talebi oluşturulamadı.' })
+  }
 
   const text = `Pulbi kayıt doğrulama kodunuz: ${code}\n\nBu kod 15 dakika sonra geçersiz hale gelecektir.`
   const html = `<p>Merhaba ${fullName || 'Pulbi kullanıcısı'},</p><p>Kayıt doğrulama kodunuz <strong>${code}</strong>.</p><p>Bu kod 15 dakika sonra geçersiz hale gelecektir.</p>`
@@ -109,7 +104,10 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     })
   } catch (error: any) {
     console.error('[auth/send_registration_code] E-posta Hatası:', error)
-    deletePendingRegistration(code, normalizedEmail)
+    try {
+      await deleteDoc(doc(db, 'pendingRegistrations', code))
+      await deleteDoc(doc(db, 'pendingRegistrations', normalizedEmail))
+    } catch (e) {}
     return sendJson(res, 400, {
       error: error?.message || 'Doğrulama kodu gönderilirken bir hata oluştu.',
     })
