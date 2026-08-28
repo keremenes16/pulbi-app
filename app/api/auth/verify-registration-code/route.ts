@@ -1,10 +1,9 @@
 import { NextResponse } from 'next/server'
+import { doc, getDoc, deleteDoc } from 'firebase/firestore'
+import { db } from '../../../../lib/firebase'
 import {
   createFirebaseUser,
-  deletePendingRegistration,
-  findPendingRegistration,
   normalizeEmail,
-  pendingRegistrationStore,
   writeFirestoreUserDoc,
 } from '../../../../lib/api-auth'
 
@@ -20,10 +19,22 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: 'Lütfen e-posta, şifre ve doğrulama kodunu girin.' }, { status: 400 })
     }
 
-    const pendingEntry = findPendingRegistration(code, normalizedEmail)
+    // Geçici kaydı doğrudan Firestore'dan çekiyoruz
+    const pendingDocRef = doc(db, 'pendingRegistrations', code)
+    const pendingSnapshot = await getDoc(pendingDocRef)
 
-    if (!pendingEntry) {
+    if (!pendingSnapshot.exists()) {
       return NextResponse.json({ error: 'Kod geçersiz veya süresi dolmuş. Lütfen yeniden kayıt isteyin.' }, { status: 400 })
+    }
+
+    const pendingEntry = pendingSnapshot.data() as {
+      fullName: string
+      username: string
+      email: string
+      password: string
+      birthDate: string
+      gender: string
+      expiresAt: number
     }
 
     if (normalizeEmail(pendingEntry.email) !== normalizedEmail) {
@@ -31,13 +42,17 @@ export async function POST(request: Request) {
     }
 
     if (Date.now() > pendingEntry.expiresAt) {
-      deletePendingRegistration(code, pendingEntry.email)
+      try {
+        await deleteDoc(doc(db, 'pendingRegistrations', code))
+        await deleteDoc(doc(db, 'pendingRegistrations', normalizedEmail))
+      } catch (e) {}
       return NextResponse.json({ error: 'Doğrulama kodunun süresi dolmuş. Lütfen yeniden kayıt isteyin.' }, { status: 400 })
     }
 
     if (String(pendingEntry.password || '').trim() !== String(password || '').trim()) {
       return NextResponse.json({ error: 'Girilen şifre doğrulama sırasında eşleşmiyor.' }, { status: 400 })
     }
+
     const authResult = await createFirebaseUser(pendingEntry.email, pendingEntry.password)
 
     try {
@@ -53,7 +68,11 @@ export async function POST(request: Request) {
       console.warn('[auth/verify-registration-code] Firestore kaydı oluşturulamadı:', firestoreError)
     }
 
-    deletePendingRegistration(code, pendingEntry.email)
+    // Kullanılan geçici kayıtları Firestore'dan temizliyoruz
+    try {
+      await deleteDoc(doc(db, 'pendingRegistrations', code))
+      await deleteDoc(doc(db, 'pendingRegistrations', normalizedEmail))
+    } catch (e) {}
 
     return NextResponse.json(
       {
